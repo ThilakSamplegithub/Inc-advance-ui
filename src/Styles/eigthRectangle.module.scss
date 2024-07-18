@@ -1,0 +1,41 @@
+.container {
+    position: absolute;
+    border: 0px solid red;
+    width: 1262px;
+    height: 523px;
+    top: 4176px;
+    left: 81px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    & > div:nth-child(1) {
+      width: 699px;
+      height: 130px;
+      top: 4266px;
+      left: 371px;
+      gap: 0px;
+      opacity: 0px;
+      font-family: Satoshi;
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 64.8px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  
+    & > div:nth-child(2) {
+      width: 1035px;
+      height: 169px;
+      top: 4443px;
+      left: 196px;
+      gap: 0px;
+      opacity: 0px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  

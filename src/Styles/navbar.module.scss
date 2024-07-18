@@ -1,0 +1,70 @@
+.container {
+    width: 1104px;
+    height: 80px;
+    border: 0px solid red;
+    margin-top: 62px;
+    margin-left: 168px;
+    // isolation: isolate;
+    // mix-blend-mode: screen;
+    background: linear-gradient(92.98deg, rgb(39,21,78) 32.09%, rgb(32,18,66) 116.98%);
+    border-radius: 48px;
+    position: absolute;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px; // Adjusted from "10px, 20px, 10px, 20px" to proper SCSS syntax
+    z-index: 999;
+    // see whatever comes under it, it should not be visible
+  
+    > div:nth-child(1) {
+      border: 0px solid red;
+      margin: 1.19px;
+      display: flex;
+      // Any specific styles for this child div
+    }
+  
+    > div:nth-child(2) {
+      display: flex;
+      border: 0px solid red;
+      justify-content: space-around;
+      align-items: center;
+      width: 825.92px;
+      height: 40px;
+      gap: 6px;
+      opacity: 0px;
+  
+      div {
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.6px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+  
+    > div:nth-child(3) {
+      display: flex;
+      justify-content: space-evenly;
+      width: 131px;
+      height: 40px;
+      padding: 8px 14px;
+      gap: 4px;
+      border-radius: 20px;
+      opacity: 0px;
+      background-color: #FFFFFF;
+      border: 1px solid white;
+  
+      > div:nth-child(1) {
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        text-align: left;
+        color: #0E0D0D;
+      }
+    }
+  }
+  

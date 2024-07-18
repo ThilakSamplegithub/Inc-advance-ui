@@ -1,0 +1,112 @@
+.container{
+    position:absolute;
+    border:0px solid red;
+    width: 1264px;
+height: 628px;
+top: 4843px;
+left: 88px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.container>div:nth-child(1){
+    width: 699px;
+height: 65px;
+top: 4843px;
+// margin-top: 10px;
+left: 361px;
+gap: 0px;
+opacity: 0px;
+//styleName: Heading/Heading 2/Heading 2;
+font-family: Satoshi;
+font-size: 48px;
+font-weight: 900;
+line-height: 64.8px;
+text-align: center;
+color:#FFFFFF
+}
+.container>div:nth-child(2){
+    width: 638px;
+height: 64px;
+top: 4919px;
+left: 391px;
+gap: 0px;
+opacity: 0px;
+//styleName: Heading/Heading 4/Heading 4 Bold;
+font-family: Satoshi;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.4px;
+text-align: center;
+color:#DADDD8
+}
+.container>div:nth-child(3){
+    display: flex;
+    border:0px solid gold;
+    justify-content: center;
+    width: 920px;
+height: 418px;
+margin-top: calc(5053px - 4983px);
+}
+.container>div:nth-child(3)>div>div:nth-child(1){
+    border-radius:20px, 20px, 0px, 0px;
+    margin-top: 10px;
+}
+.container>div:nth-child(3)>div>div:nth-child(2){
+    width: 264px;
+    height: 66px;
+    gap: 0px;
+    opacity: 0px;
+//styleName: Body/Body 1/Body 1 Bold;
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+    color:#FFFFFF;
+    margin-top: 10px;
+}
+.container>div:nth-child(3)>div>div:nth-child(3){
+    width: 264px;
+height: 76px;
+gap: 0px;
+opacity: 0px;
+//styleName: Body/Body 2/Body 2 Bold;
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 700;
+line-height: 18.9px;
+text-align: left;
+color:#8D96B2;
+margin-top: 10px;
+}
+.container>div:nth-child(3)>div>div:nth-child(4){
+    width: 79px;
+height: 38px;
+padding: 12px 14px 12px 14px;
+gap: 8px;
+border-radius: 12px;
+opacity: 0px;
+background: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+border:0px solid red;
+margin-top: 10px;
+}
+.container>div:nth-child(3)>div>div:nth-child(4)>div{
+    //styleName: Body/Body 3/Body 3;
+font-family: Satoshi;
+width: 51px;
+height: 14px;
+gap: 0px;
+opacity: 0px;
+font-size: 10px;
+font-weight: 700;
+line-height: 13.5px;
+text-align: left;
+border:0px solid red;;
+}

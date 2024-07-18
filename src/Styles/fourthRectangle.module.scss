@@ -1,0 +1,51 @@
+$container-width: 1104px;
+$container-height: 372px;
+$container-top: 1306px;
+$container-left: 168px;
+
+@mixin common-styles {
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin text-styles($font-size, $font-weight, $line-height, $color) {
+  font-family: Satoshi;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-align: center;
+  color: $color;
+}
+
+.container {
+  width: $container-width;
+  height: $container-height;
+  top: $container-top;
+  left: $container-left;
+  position: absolute;
+  border: 0px solid red;
+  @include common-styles;
+
+  > div:nth-child(1) {
+    width: calc(786px - 50px);
+    height: 130px;
+    top: 1330px;
+    left: 328px;
+    @include text-styles(48px, 900, 64.8px, #FFFFFF);
+  }
+
+  > div:nth-child(2) {
+    width: $container-width;
+    height: 105px;
+    top: 1536px;
+    left: $container-left;
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

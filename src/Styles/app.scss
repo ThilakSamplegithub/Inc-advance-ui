@@ -1,0 +1,21 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    // background-color: black;
+}
+body{
+    background-color: black;
+}
+.containers{
+// padding:0% 20%;
+width: 1440px;
+height: 8818px;
+margin: 0 auto;
+gap: 0px;
+opacity: 0px;
+border:0px solid red;
+background: #020617;
+position: relative;
+overflow: hidden;
+}

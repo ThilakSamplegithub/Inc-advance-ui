@@ -1,0 +1,99 @@
+.container{
+    position:absolute;
+    border:0px solid gold;
+    width: 1192.62px;
+height: 1027.83px;
+top: 3157px;
+left: 135.84px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+opacity: 0px;
+// display: flex;
+// flex-direction: column;
+// // justify-content: center;
+// align-items: center;
+}
+.container>div:nth-child(1){
+    width: 438px;
+height: 65px;
+top: 3157px;
+left: 501px;
+gap: 0px;
+opacity: 0px;
+//styleName: Heading/Heading 2/Heading 2;
+font-family: Satoshi;
+font-size: 48px;
+font-weight: 900;
+line-height: 64.8px;
+text-align: center;
+color:#FFFFFF;
+border:0px solid red;
+margin:auto
+}
+.container>div:nth-child(2){
+    width:920px;
+    height: 820px;
+    border:0px solid red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:auto;
+    margin-top: calc(3285px - 3227px);
+    // border-radius: 15px;
+    // transform: translate(10%,50%);
+    // margin:auto
+    gap:2px;
+    
+}
+.container>div:nth-child(2)>div{
+    width:304px;
+    height:404px;
+    border:0px solid red;
+    width: Fixed (304px)px;
+height: Fixed (404px)px;
+top: 3285px;
+left: 248px;
+padding: 45px 22px 45px 22px;
+gap: 25px;
+border-radius: 20px;
+opacity: 0px;
+background: linear-gradient(180deg, rgba(2, 6, 23, 0) 16.98%, rgba(2, 6, 23, 0.8) 66.5%);
+
+}
+.container>div:nth-child(2)>div>div:nth-child(1){
+    border-radius: 20px;
+    border:0px solid red
+}
+.container>div:nth-child(2)>div>div:nth-child(2){
+    width: 214.18px;
+height: 32px;
+top: 249px;
+margin-top: 5px;
+left: 22px;
+gap: 0px;
+opacity: 0px;
+//styleName: Heading/Heading 2/Heading 2 Small;
+font-family: Satoshi;
+font-size: 24px;
+font-weight: 900;
+line-height: 32.4px;
+text-align: left;
+
+color:#FFFFFF
+}
+.container>div:nth-child(2)>div>div:nth-child(3){
+    width: 240px;
+height: 76px;
+top: 283px;
+left: 22px;
+gap: 0px;
+opacity: 0px;
+//styleName: Body/Body 2/Body 2 Regular;
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.9px;
+text-align: left;
+
+    color: #8D96B2;
+    
+}
